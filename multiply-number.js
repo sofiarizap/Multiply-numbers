@@ -7,8 +7,10 @@
 // multiply(0)==0 // 0 * 5¹
 // multiply(-3)==-15 // -3 * 5¹
 function multiply(number) {
-    return number * Math.pow(5, Math.abs(number).toString().length);
+    return number * Math.pow(5, Math.abs(number).length);
   }
 //identificar la cantidad de digitos de number 
 // multiplicar por 5 number por la cantidad de digitos 
+// math.pow : elevar
+
     
